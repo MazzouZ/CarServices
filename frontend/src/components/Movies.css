@@ -1,0 +1,63 @@
+.scroll-tray {
+  white-space: nowrap;
+}
+.scroll-tray div {
+  display: inline-block;
+}
+
+.scroll-tray img {
+  border-radius: 0.3rem;
+  margin: 7px 5px;
+  padding: 0;
+  width: 340px;
+}
+
+.scroll-holder {
+  overflow-x: hidden;
+}
+
+.scroll-holder .scroll-tray {
+  animation: scroll-tray-hero 120s linear infinite;
+}
+
+@keyframes scroll-tray-hero {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.channels {
+  white-space: nowrap;
+}
+.channels div {
+  display: inline-block;
+}
+
+.channels img {
+  border-radius: 0.3rem;
+  margin: 7px 5px;
+  padding: 0;
+  width: 100px;
+}
+
+.scroll-holder {
+  overflow-x: hidden;
+}
+
+.scroll-holder .channels {
+  animation: scroll-tray-hero 80s linear infinite;
+}
+
+@keyframes channels-hero {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
